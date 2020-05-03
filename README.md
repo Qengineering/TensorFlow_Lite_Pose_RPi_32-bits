@@ -1,20 +1,19 @@
 # TensorFlof_Lite_Pose_RPi_32-bits
 TensorFlow Lite Posenet running at 5.0 FPS on bare Raspberry Pi 4
 
-A fast C++ implementation of TensorFlow Lite Posenet on a bare Raspberry Pi 4.
-The Raspberry Pi 64 bits version of Ubuntu is used as operating system.
-Once overclocked to 1825 MHz, the app runs at 9.4 FPS without any hardware accelerator.
+A fast C++ implementation of TensorFlow Lite on a bare Raspberry Pi 4.
+Once overclocked to 2000 MHz, the app runs at 5.0 FPS without any hardware accelerator.
 
 https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5 <br/>
-Frame rate Pose Lite : 9.4 FPS (RPi 4 @ 1825 MHz - 64 bits OS) <br/>
-Frame rate Pose Lite : 5.0 FPS (RPi 4 @ 2000 MHz - 32 bits OS) see https://github.com/Qengineering/TensorFlow_Lite_Pose_RPi_32-bits<br/>
+Frame rate Pose Lite : 5.0 FPS (RPi 4 @ 2000 MHz - 32 bits OS) <br/>
+Frame rate Pose Lite : 9.4 FPS (RPi 4 @ 1825 MHz - 64 bits OS) see https://github.com/Qengineering/TensorFlow_Lite_Pose_RPi_64-bits<br/>
 <br/>
-Special made for a bare Raspberry Pi see: https://qengineering.eu/install-ubuntu-18.04-on-raspberry-pi-4.html <br/>
+Special made for a bare Raspberry Pi see: https://qengineering.eu/install-tensorflow-2-lite-on-raspberry-pi-4.html <br/>
 <br/>
 To extract and run the network in Code::Blocks <br/>
 $ mkdir *MyDir* <br/>
 $ cd *MyDir* <br/>
-$ wget https://github.com/Qengineering/TensorFlow_Lite_Pose_RPi_64-bits/archive/master.zip <br/>
+$ wget https://github.com/Qengineering/TensorFlow_Lite_Pose_RPi_32-bits/archive/master.zip <br/>
 $ unzip -j master.zip <br/>
 Remove master.zip and README.md as they are no longer needed. <br/> 
 $ rm master.zip <br/>
@@ -26,10 +25,10 @@ TestTensorFlow_Lite_Pose.cpb <br/>
 Pose_single.cpp<br/>
  <br/>
 Run TestTensorFlow_Lite.cpb with Code::Blocks. Remember, you also need a working OpenCV 4 on your Raspberry. <br/>
-I fact you can run this example on any aarch64 Linux system. <br/>
+Preferably use our installation here: https://qengineering.eu/install-opencv-4.3-on-raspberry-pi-4.html <br/>
 
 ![output image]( https://qengineering.eu/images/Girl_9_4.png )
 
-See the movie at: https://www.youtube.com/watch?v=LxSR5JJRBoI
+See the Ubuntu 9.4 FPS movie at: https://www.youtube.com/watch?v=LxSR5JJRBoI
 
 
