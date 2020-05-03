@@ -1,4 +1,4 @@
-# TensorFlof_Lite_Pose_RPi_32-bits
+# TensorFlow_Lite_Pose_RPi_32-bits
 TensorFlow Lite Posenet running at 5.0 FPS on bare Raspberry Pi 4
 
 A fast C++ implementation of TensorFlow Lite on a bare Raspberry Pi 4.
