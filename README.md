@@ -27,7 +27,7 @@ Pose_single.cpp<br/>
 Run TestTensorFlow_Lite.cpb with Code::Blocks. Remember, you also need a working OpenCV 4 on your Raspberry. <br/>
 Preferably use our installation here: https://qengineering.eu/install-opencv-4.3-on-raspberry-pi-4.html <br/>
 
-![output image]( https://qengineering.eu/images/Girl_9_4.png )
+![output image]( https://qengineering.eu/images/Girl_5_0.png )
 
 See the Ubuntu 9.4 FPS movie at: https://www.youtube.com/watch?v=LxSR5JJRBoI
 
