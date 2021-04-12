@@ -1,4 +1,5 @@
 # TensorFlow_Lite_Pose_RPi_32-bits
+![output image]( https://qengineering.eu/images/Girl_5_0.png )<br/>
 TensorFlow Lite Posenet running at 5.0 FPS on a bare Raspberry Pi 4
 
 A fast C++ implementation of TensorFlow Lite on a bare Raspberry Pi 4.
@@ -13,7 +14,7 @@ Special made for a bare Raspberry Pi see: https://qengineering.eu/install-tensor
 To extract and run the network in Code::Blocks <br/>
 $ mkdir *MyDir* <br/>
 $ cd *MyDir* <br/>
-$ wget https://github.com/Qengineering/TensorFlow_Lite_Pose_RPi_32-bits/archive/master.zip <br/>
+$ wget https://github.com/Qengineering/TensorFlow_Lite_Pose_RPi_32-bits/archive/refs/heads/master.zip <br/>
 $ unzip -j master.zip <br/>
 Remove master.zip and README.md as they are no longer needed. <br/> 
 $ rm master.zip <br/>
@@ -26,8 +27,6 @@ Pose_single.cpp<br/>
  <br/>
 Run TestTensorFlow_Lite.cpb with Code::Blocks. Remember, you also need a working OpenCV 4 on your Raspberry. <br/>
 Preferably use our installation here: https://qengineering.eu/install-opencv-4.3-on-raspberry-pi-4.html <br/>
-
-![output image]( https://qengineering.eu/images/Girl_5_0.png )
 
 See the Ubuntu 9.4 FPS movie at: https://www.youtube.com/watch?v=LxSR5JJRBoI
 
